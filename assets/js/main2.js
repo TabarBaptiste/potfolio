@@ -184,11 +184,11 @@
   /**
    * Testimonials slider
    */
-  new Swiper('.testimonials-slider', {
+new Swiper('.testimonials-slider', {
     speed: 600,
     loop: true,
     autoplay: {
-      delay: 5000,
+      delay: 10000, // Ajout d'un temps de pause de 10 secondes
       disableOnInteraction: false
     },
     slidesPerView: 'auto',
@@ -199,6 +199,7 @@
     }
   });
 
+
   /**
    * Portfolio details slider
    */
@@ -206,7 +207,7 @@
     speed: 400,
     loop: true,
     autoplay: {
-      delay: 5000,
+      delay: 10000,
       disableOnInteraction: false
     },
     pagination: {
