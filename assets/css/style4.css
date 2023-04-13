@@ -869,18 +869,26 @@ a:hover {
   height: 0.7rem;
   background-color: #0078ff;
 }
+
 .skill-mf .progress .progress-bar2 {
-    height: 0.7rem;
-    background-color: #09921c;
-  }
-  .skill-mf .progress .progress-bar3 {
-    height: 0.7rem;
-    background-color: #ff00ff;
-  }
-  .skill-mf .progress .progress-bar4 {
-    height: 0.7rem;
-    background-color: #ff1100ce;
-  }
+  height: 0.7rem;
+  background-color: #09921c;
+}
+
+.skill-mf .progress .progress-bar3 {
+  height: 0.7rem;
+  background-color: #ff00ff;
+}
+
+.skill-mf .progress .progress-bar4 {
+  height: 0.7rem;
+  background-color: #ff1100ce;
+}
+
+.skill-mf img {
+  max-width: 100%;
+  height: auto;
+}
 
 /*--------------------------------------------------------------
 # Services
